@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>소하 SOHA · 굿노트 디지털 문구</title>
+<meta name="description" content="소하 굿노트 디지털 문구 — 무료 스타터 세트와 일주일 플래너">
+<meta property="og:title" content="소하 SOHA · 굿노트 디지털 문구">
+<meta property="og:description" content="무료 스타터 세트 받아 가세요 · 만년형 위클리 · 노트 속지 기본 5종">
+<meta property="og:image" content="img/weekly.jpg">
+<style>
+@font-face{font-family:GUMI;src:url(fonts/gumi.woff2) format('woff2');font-display:swap}
+@font-face{font-family:MT;src:url(fonts/mongtori.woff2) format('woff2');font-display:swap}
+:root{--bg:#FEFFED;--ink:#9C7055;--sub:#B8987F;--pink:#FFC1CC;--pinkSoft:#FFD7D8;--pinkText:#E3909F;--line:#E1D4BF}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:var(--bg)}
+body{font-family:MT,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:440px;margin:0 auto;padding:48px 16px 40px}
+.gm{font-family:GUMI,MT,sans-serif}
+/* 프로필 */
+.profile{text-align:center}
+.avatar{width:96px;height:96px;border-radius:50%;margin:0 auto 16px;background:var(--pinkSoft);display:flex;align-items:center;justify-content:center;overflow:hidden;border:1.5px solid var(--line)}
+.avatar{position:relative}.avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.name{font-size:34px;line-height:1.2}
+.tag{margin-top:8px;font-size:15px;color:var(--sub);letter-spacing:.02em}
+/* 버튼 */
+.links{margin-top:32px;display:flex;flex-direction:column;gap:12px}
+.btn{display:flex;align-items:center;gap:14px;min-height:64px;padding:12px 18px;border:1.5px solid var(--line);border-radius:20px;background:var(--bg);transition:background .15s}
+.btn:active{background:var(--pinkSoft)}
+.btn .t{flex:1}
+.btn .t b{display:block;font-family:GUMI,MT,sans-serif;font-weight:400;font-size:19px;line-height:1.3}
+.btn .t small{display:block;font-size:13px;color:var(--sub);margin-top:2px}
+.btn .badge{font-size:12px;padding:5px 10px;border-radius:12px;background:var(--pink);color:var(--ink);white-space:nowrap}
+.btn .badge.soon{background:transparent;border:1.5px solid var(--line);color:var(--sub)}
+.btn.main{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.btn.main small{color:#EAD9C8}
+.btn.main .badge{background:var(--pink)}
+.btn.off{pointer-events:none}
+/* 무료 세트 */
+.sec{margin-top:44px}
+.sec h2{font-family:GUMI,MT,sans-serif;font-weight:400;font-size:24px;display:inline;background:linear-gradient(transparent 58%,var(--pinkSoft) 58%,var(--pinkSoft) 92%,transparent 92%);padding:0 4px;margin-left:-4px}
+.sec p.lead{margin-top:10px;font-size:14px;color:var(--sub);line-height:1.7}
+.item{margin-top:20px;border:1.5px solid var(--line);border-radius:20px;overflow:hidden}
+.item img{display:block;width:100%;border-bottom:1.5px solid var(--line)}
+.item .body{padding:14px 16px 16px}
+.item .body b{font-family:GUMI,MT,sans-serif;font-weight:400;font-size:18px}
+.item .body small{display:block;font-size:13px;color:var(--sub);margin-top:4px;line-height:1.6}
+.dl{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.dl a{flex:1;min-width:120px;text-align:center;font-size:14px;padding:11px 8px;border-radius:14px;background:var(--pinkSoft)}
+.dl a:active{background:var(--pink)}
+.sticker{background:var(--bg);display:flex;justify-content:center;padding:18px 0 10px;border-bottom:1.5px solid var(--line)}
+.sticker img{width:62%;border:0}
+.how{margin-top:16px;font-size:13px;color:var(--sub);line-height:1.8}
+.how b{color:var(--ink);font-weight:400}
+footer{margin-top:48px;text-align:center;font-size:12px;color:var(--sub);line-height:1.8}
+.shell{display:inline-block;width:20px;height:20px;vertical-align:-4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="profile">
+    <!-- 프로필 사진: img/profile.png 를 넣으면 자동으로 보여요 -->
+    <div class="avatar"><svg viewBox="0 0 30 30" width="56" height="56"><circle cx="15" cy="15" r="13" fill="#FFC1CC"/><path d="M15 15m-1.5 0a1.5 1.5 0 1 1 3 0a4 4 0 1 1 -8 0a6.5 6.5 0 1 1 13 0" fill="none" stroke="#FEFFED" stroke-width="2.2" stroke-linecap="round"/></svg><img src="img/profile.png" alt="소달이" onerror="this.remove()"></div>
+    <h1 class="name gm">소하 SOHA</h1>
+    <p class="tag">굿노트 디지털 문구 · 소달이와 천천히 기록해요</p>
+  </header>
+
+  <nav class="links">
+    <a class="btn main" href="#free">
+      <span class="t"><b>무료 스타터 세트 받기</b><small>만년형 위클리 · 노트 속지 기본 5종 · 캘린더 스티커</small></span>
+      <span class="badge">FREE</span>
+    </a>
+    <!-- 판매 페이지가 생기면 href 에 주소를 넣고 class 에서 off 를 지우세요 -->
+    <a class="btn off" href="#">
+      <span class="t"><b>소하 일주일 플래너</b><small>만년형 + 2027 날짜형 · 세로·가로</small></span>
+      <span class="badge soon">곧 만나요</span>
+    </a>
+    <a class="btn off" href="#">
+      <span class="t"><b>덕질 가계부</b><small>지출 · 굿즈 아카이브 · 위시리스트</small></span>
+      <span class="badge soon">준비 중</span>
+    </a>
+    <a class="btn" href="https://www.instagram.com/soha_sodal/" target="_blank" rel="noopener">
+      <span class="t"><b>인스타그램</b><small>@soha_sodal · 새 속지 소식과 DM 문의</small></span>
+    </a>
+  </nav>
+
+  <section class="sec" id="free">
+    <h2>무료 스타터 세트</h2>
+    <p class="lead">아이패드 굿노트·노타빌리티에서 쓰는 PDF예요. 세로와 가로 중 편한 걸 받아 가세요.</p>
+
+    <div class="item">
+      <img src="img/weekly.jpg" alt="만년형 일주일 플래너 예시">
+      <div class="body">
+        <b>만년형 일주일 플래너</b>
+        <small>날짜가 없어 언제든 시작해요. 7일 일정 · To Do · 습관 3개 · 메모</small>
+        <div class="dl"><a href="files/soha-weekly-portrait.pdf" download>세로 PDF</a><a href="files/soha-weekly-landscape.pdf" download>가로 PDF</a></div>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/papers.jpg" alt="노트 속지 예시">
+      <div class="body">
+        <b>노트 속지 기본 5종</b>
+        <small>무지 · 줄 · 모눈 · 도트 · 코넬 · 전체 15종은 곧 만나요</small>
+        <div class="dl"><a href="files/soha-notepapers-portrait.pdf" download>세로 PDF</a><a href="files/soha-notepapers-landscape.pdf" download>가로 PDF</a></div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="sticker"><img src="img/sticker.png" alt="2027 캘린더 스티커"></div>
+      <div class="body">
+        <b>2027 캘린더 스티커</b>
+        <small>배경 없는 PNG · 1~12월 + 이번 주 형광펜 (세로판용 · 가로판용)</small>
+        <div class="dl"><a href="files/soha-2027-calendar-stickers.zip" download>스티커 ZIP</a></div>
+      </div>
+    </div>
+
+    <p class="how">
+      <b>쓰는 법</b><br>
+      1. 받은 PDF를 굿노트로 열어요 (파일 → 공유 → 굿노트)<br>
+      2. 속지는 템플릿으로 등록하면 새 페이지에 바로 써요<br>
+      3. 스티커 PNG는 굿노트 스티커에 추가해요
+    </p>
+  </section>
+
+  <footer>
+    <svg class="shell" viewBox="0 0 30 30"><circle cx="15" cy="15" r="13" fill="#FFC1CC"/><path d="M15 15m-1.5 0a1.5 1.5 0 1 1 3 0a4 4 0 1 1 -8 0a6.5 6.5 0 1 1 13 0" fill="none" stroke="#FEFFED" stroke-width="2.2" stroke-linecap="round"/></svg><br>
+    © SOHA · 개인 사용만 가능해요 · 재배포·판매 금지
+  </footer>
+</div>
+</body>
+</html>
